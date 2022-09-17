@@ -1,0 +1,28 @@
+.main_nav {
+  width: 100%;
+  background-color: #a0aecd;
+
+  /* color: white; */
+}
+
+.nav_list {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  justify-content: flex-end;
+  margin-right: 6rem;
+}
+.nav_list a {
+  text-decoration: none;
+}
+
+.nav_list li {
+  color: white;
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+
+.active_nav_item li {
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}

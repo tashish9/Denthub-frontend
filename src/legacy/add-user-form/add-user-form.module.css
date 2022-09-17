@@ -1,0 +1,73 @@
+.container {
+  border-radius: 50px;
+  background-color: thistle;
+  text-align: center;
+  margin: 1rem 0 0 4rem;
+  width: 60%;
+  padding: 1rem 2rem;
+  position: absolute;
+}
+
+.heading {
+  font-size: 3rem;
+  letter-spacing: 2px;
+  color: #0f0e0e;
+  /* text-transform: uppercase; */
+  font-weight: 400;
+  font-family: 'Playfair Display', serif;
+  margin-bottom: 1rem;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 3rem;
+  margin: 0.5rem 1rem;
+}
+
+.controls label {
+  color: white;
+  font-weight: bold;
+}
+
+.controls input {
+  font: inherit;
+  background-color: #f1e1fc;
+  border-radius: 4px;
+  border: 1px solid white;
+  width: 60%;
+  padding: 0.25rem;
+}
+
+.controls select {
+  font: inherit;
+  background-color: #f1e1fc;
+  border-radius: 4px;
+  border: 1px solid white;
+  width: 60%;
+  padding: 0.25rem;
+}
+
+.error {
+  color: red;
+  text-align: right;
+}
+
+.actions {
+  padding: 1rem;
+}
+
+.submit_button {
+  margin: 0.5rem 2rem 0 0;
+  cursor: pointer;
+  font: inherit;
+  color: white;
+  background-color: #1e5bde;
+  border: none;
+  border-radius: 4px;
+  padding: 0.5rem 2.5rem;
+}
+
+.submit_button:hover {
+  transform: scale(0.95);
+}

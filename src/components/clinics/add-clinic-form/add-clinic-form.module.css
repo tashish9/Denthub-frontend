@@ -1,0 +1,101 @@
+.container {
+  border: 3px solid black;
+  position: absolute;
+  padding: 2rem;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 55%;
+  transform: translate(-50%, -50%);
+  background: radial-gradient(
+    circle at 18.7% 37.8%,
+    rgb(250, 250, 250) 0%,
+    rgb(225, 234, 238) 90%
+  );
+  width: 69%;
+}
+
+.title {
+  font-weight: 300;
+  font-size: 2.8rem;
+  /* padding: 7px; */
+  text-align: center;
+  /* letter-spacing: 2px; */
+}
+
+.input_field {
+  padding: 0.7rem;
+}
+
+.input_field label {
+  padding: 4px;
+  display: block;
+}
+
+.input_field input,
+.input_field select {
+  border: 2px solid gray;
+  border-radius: 4px;
+  outline: 0;
+  box-shadow: none;
+  padding: 0.5rem;
+  line-height: 20px;
+  width: 250px;
+  font-size: 1rem;
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.input_field select {
+  font-size: 0.9rem;
+}
+
+.input_field input:focus {
+  border: 2px solid #00dd22;
+}
+
+.input_field select:focus {
+  border: 2px solid #00dd22;
+}
+
+.name input {
+  width: 350px;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-between;
+  width: 930px;
+}
+
+.city input,
+.postalCode input {
+  width: 170px;
+}
+
+.parentClinic input {
+  width: 350px;
+}
+
+.address {
+  display: flex;
+}
+
+.actions {
+  padding: 1rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: flex-end;
+}
+
+.actions button {
+  cursor: pointer;
+  font: inherit;
+  color: white;
+  background-color: grey;
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 0.5rem 2.5rem;
+}
+
+.error {
+  color: red;
+}

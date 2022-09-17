@@ -1,0 +1,46 @@
+.container {
+  display: flex;
+  padding: 0.5rem;
+  gap: 1rem;
+  justify-content: space-evenly;
+  border: 1px #ddd solid;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.name {
+  width: 12%;
+}
+
+.email {
+  width: 20%;
+}
+
+.role {
+  width: 12%;
+}
+
+.organization {
+  width: 25%;
+}
+
+.created {
+  width: 10%;
+}
+
+.active_status {
+  text-align: center;
+  width: 3%;
+}
+
+.circle {
+  height: 26px;
+  width: 26px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.active {
+  background-color: green;
+}

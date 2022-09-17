@@ -1,0 +1,27 @@
+.container {
+  background-color: #f9f9f9;
+  min-height: 100vh;
+}
+
+.heading_bar {
+  padding: 1.5rem 1.5rem 0 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  font-weight: 300;
+  font-size: 3.3rem;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.button {
+  cursor: pointer;
+  color: black;
+  border: 1px solid black;
+  border-radius: 4px;
+  font: inherit;
+  padding: 0.5rem 2rem;
+}

@@ -1,0 +1,65 @@
+.container {
+  margin: 3rem auto;
+  position: relative;
+}
+
+.signin {
+  text-align: center;
+  background-color: teal;
+  padding: 1rem;
+  position: absolute;
+  border-radius: 6px;
+  width: 40%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.signin h1 {
+  color: white;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+.control {
+  width: 100%;
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.control label {
+  color: white;
+  font-weight: bold;
+  margin: 0.5rem 1rem;
+}
+
+.control input {
+  font: inherit;
+  background-color: #f1e1fc;
+  color: #38015c;
+  border-radius: 4px;
+  border: 1px solid white;
+  width: 80%;
+  padding: 0.25rem;
+}
+
+.actions {
+  text-align: right;
+  padding: 0.5rem;
+}
+
+.actions button {
+  margin: 0.5rem 2rem 0 0;
+  cursor: pointer;
+  font: inherit;
+  color: white;
+  background-color: #6e85b7;
+  border: none;
+  border-radius: 4px;
+  padding: 0.5rem 2.5rem;
+}
+
+.actions button:hover {
+  background-color: #413f42;
+}

@@ -1,0 +1,21 @@
+.container {
+  width: 48vw;
+  box-shadow: 5px solid black;
+  border-radius: 20px;
+  border: 1px solid black;
+  background-color: brown;
+  padding: 1rem;
+  transition: 0.3s;
+}
+
+.feature__heading {
+  font-size: 3rem;
+}
+
+.feature__descreption {
+  font-size: 1.5rem;
+}
+
+.container:hover {
+  transform: scale(0.95);
+}

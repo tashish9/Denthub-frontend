@@ -1,0 +1,50 @@
+.container {
+  width: 100vw;
+  position: absolute;
+  background-color: transparent;
+  margin: 2rem 20vw 0 20vw;
+  padding: 2rem;
+  box-sizing: border-box;
+  z-index: 1;
+  border-radius: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.modal__heading {
+  text-align: center;
+  padding: 1rem;
+}
+
+.cross_button {
+  cursor: pointer;
+  border-radius: 50%;
+  padding: 0.5em;
+  font-size: larger;
+  width: 35px;
+  height: 35px;
+  border: 2px solid red;
+  color: red;
+  font-weight: bolder;
+  position: relative;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cross_button:hover {
+  background-color: red;
+  color: white;
+}
+
+.modal__top_button {
+  position: absolute;
+  right: 36%;
+  top: 8%;
+}
+
+.modal__bottom_buttons {
+  padding: 1rem;
+  text-align: center;
+}
